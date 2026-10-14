@@ -1,0 +1,27 @@
+scope,theme_group,mentions,avg_strong_share
+all,"Insufficient moisturization",22165,0.0235
+all,"Texture & finish",17429,0.0439
+all,"No visible improvement",12719,0.0679
+all,"Packaging & dispensing",10564,0.0145
+all,"Adverse skin reaction",9862,0.3043
+all,"Capacity: too small, wants larger SKU",9781,0.0041
+all,"Price: too expensive",7878,0.0141
+all,"Cleansing performance",7781,0.0329
+all,"Too heavy / oily-skin mismatch",6413,0.0455
+all,Scent,6227,0.0320
+all,"Price: discount-dependent purchase",5145,0.0014
+all,"Skin-type & seasonal fit",3368,0.0213
+all,"Application effort",2839,0.0253
+"Cleansing Oils","Cleansing performance",1121,0.0594
+"Cleansing Oils","No visible improvement",566,0.0847
+"Cleansing Oils","Adverse skin reaction",419,0.2639
+"Cleansing Oils",Scent,406,0.0270
+"Cleansing Oils","Capacity: too small, wants larger SKU",290,0.0057
+"Cleansing Oils","Texture & finish",221,0.0410
+"Cleansing Oils","Packaging & dispensing",201,0.0181
+"Cleansing Oils","Price: discount-dependent purchase",151,0.0082
+"Cleansing Oils","Price: too expensive",150,0.0157
+"Cleansing Oils","Too heavy / oily-skin mismatch",66,0.0876
+"Cleansing Oils","Insufficient moisturization",53,0.0384
+"Cleansing Oils","Skin-type & seasonal fit",25,0.0480
+"Cleansing Oils","Application effort",20,0.0277

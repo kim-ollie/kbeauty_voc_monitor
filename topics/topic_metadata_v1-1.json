@@ -1,0 +1,560 @@
+{
+  "schema_version": 1,
+  "generated": "2026-09-13",
+  "source": "Manual topic-labeling pass over the BERTopic topics: labels, merges, exclusions and theme groups.",
+  "note": "polarity_type is set for the 11 topics checked for two-directional complaints (some reviewers want X, others the opposite) -- 1/preference_split, 8/defect, 15/preference_split, 28/preference_split, 32/conditional_fit, 41/preference_split, 44/defect, 48/defect, 49/conditional_fit, 64/preference_split, 65/preference_split. Every other topic's polarity_type is NULL.",
+  "topics": [
+    {
+      "topic_id": 0,
+      "topic_label": "Cleansing power: weak, lacking",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Cleansing performance",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 1,
+      "topic_label": "Scent: unpleasant, too strong, or too faint",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Scent",
+      "polarity_type": "preference_split"
+    },
+    {
+      "topic_id": 2,
+      "topic_label": "Usage in winter: too dry, lacking moisture",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Insufficient moisturization",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 3,
+      "topic_label": "Sensitive skin: stinging and irritation (often with breakouts)",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Adverse skin reaction",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 4,
+      "topic_label": "Moisturizing power: too lightweight, not enough when used alone",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Insufficient moisturization",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 5,
+      "topic_label": "Price: too expensive, disappointing",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Price: too expensive",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 6,
+      "topic_label": "Texture & finish: sticky, slippery, slow to absorb",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Texture & finish",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 7,
+      "topic_label": "Visible effect: no noticeable results",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "No visible improvement",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 8,
+      "topic_label": "Hydration: insufficient or short-lived, nothing beyond basic moisture",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Insufficient moisturization",
+      "polarity_type": "defect"
+    },
+    {
+      "topic_id": 9,
+      "topic_label": "Toner: texture too watery or too heavy + cotton-pad dosage & spillage",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Skin-type fit",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 10,
+      "topic_label": "Oily skin: not suitable for oily skin, too oily/greasy",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Too heavy / oily-skin mismatch",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 11,
+      "topic_label": "Usage in summer: too heavy for oily skin",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Too heavy / oily-skin mismatch",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 12,
+      "topic_label": "Runny, watery texture: quickly runs out, difficult to use, absorption",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Texture & finish",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 13,
+      "topic_label": "Makeup pilling (밀림) before base",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Texture & finish",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 14,
+      "topic_label": "Price too high, so buy when on sale",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Price: discount-dependent purchase",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 15,
+      "topic_label": "Size: request for a larger size",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Capacity: too small, wants larger SKU",
+      "polarity_type": "preference_split"
+    },
+    {
+      "topic_id": 16,
+      "topic_label": "Texture & finish: sticky, slippery, slow to absorb",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Texture & finish",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 17,
+      "topic_label": "One time application is not hydrating enough, need to apply multiple layers",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Insufficient moisturization",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 18,
+      "topic_label": "Container usage: inconvenient lid, leakage, bad dosage control",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Packaging & dispensing",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 19,
+      "topic_label": "No complaint found yet – too early to tell",
+      "is_excluded": true,
+      "exclusion_reason": "Temporal hedge -- not enough time elapsed to judge yet, not a settled 'no issues' claim (distinct from 24/27/33/35).",
+      "theme_group": null,
+      "polarity_type": null
+    },
+    {
+      "topic_id": 20,
+      "topic_label": "Dropper usability: inconvenient, size, suction",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Packaging & dispensing",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 21,
+      "topic_label": "Hair & scalp: unclear hair-loss benefit + stiff hair + scalp dryness",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "No visible improvement",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 22,
+      "topic_label": "Eye irritation, stinging",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Adverse skin reaction",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 23,
+      "topic_label": "Price: expensive enough to be a purchase burden",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Price: too expensive",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 24,
+      "topic_label": "No skin trouble – general \"all good\" satisfaction statement",
+      "is_excluded": true,
+      "exclusion_reason": "Settled 'no skin trouble, all good' general satisfaction statement (confirmed duplicate of #27).",
+      "theme_group": null,
+      "polarity_type": null
+    },
+    {
+      "topic_id": 25,
+      "topic_label": "Pad thickness, poor splitting, tearing",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Packaging & dispensing",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 26,
+      "topic_label": "Insufficient foaming/lather",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Cleansing performance",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 27,
+      "topic_label": "No skin trouble, even for sensitive skin – satisfaction statement",
+      "is_excluded": true,
+      "exclusion_reason": "Settled 'no skin trouble, even for sensitive skin' satisfaction statement (confirmed duplicate of #24).",
+      "theme_group": null,
+      "polarity_type": null
+    },
+    {
+      "topic_id": 28,
+      "topic_label": "Jars over tubes preferences, tubes over jars preferences",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Packaging & dispensing",
+      "polarity_type": "preference_split"
+    },
+    {
+      "topic_id": 29,
+      "topic_label": "Wants more frequent discounts and promotions",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Price: discount-dependent purchase",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 30,
+      "topic_label": "Running out quickly, requesting larger size",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Capacity: too small, wants larger SKU",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 31,
+      "topic_label": "Pores reduction: unclear effect",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "No visible improvement",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 32,
+      "topic_label": "Seasonal suitability",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Too heavy / oily-skin mismatch",
+      "polarity_type": "conditional_fit"
+    },
+    {
+      "topic_id": 33,
+      "topic_label": "\"No regrets\" – general product satisfaction statement",
+      "is_excluded": true,
+      "exclusion_reason": "'No regrets' general product satisfaction statement (likely duplicate of #35).",
+      "theme_group": null,
+      "polarity_type": null
+    },
+    {
+      "topic_id": 34,
+      "topic_label": "More affordable price wish",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Price: too expensive",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 35,
+      "topic_label": "\"Nothing to complain about\" – satisfaction/recommendation statement",
+      "is_excluded": true,
+      "exclusion_reason": "'Nothing to complain about' satisfaction/recommendation statement (likely duplicate of #33).",
+      "theme_group": null,
+      "polarity_type": null
+    },
+    {
+      "topic_id": 36,
+      "topic_label": "Modeling pack preparation issues: bothersome, flying powder, annoying",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Application effort",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 37,
+      "topic_label": "Wants a large-size version released",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Capacity: too small, wants larger SKU",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 38,
+      "topic_label": "Sunscreen: pilling/residue buildup + SPF-trust doubts + skin irritation",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "No visible improvement",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 39,
+      "topic_label": "Small amount, raised as a minor gripe",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Capacity: too small, wants larger SKU",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 40,
+      "topic_label": "Whiteheads/blackheads/sebum removing low effect",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "No visible improvement",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 41,
+      "topic_label": "Sheet mask/pad essence: too much (drips) or too little (dries out)",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Application effort",
+      "polarity_type": "preference_split"
+    },
+    {
+      "topic_id": 42,
+      "topic_label": "Limited breakout improvement",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "No visible improvement",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 43,
+      "topic_label": "Excess surface oiliness: greasy finish",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Texture & finish",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 44,
+      "topic_label": "Small volume, used up quickly",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Capacity: too small, wants larger SKU",
+      "polarity_type": "defect"
+    },
+    {
+      "topic_id": 45,
+      "topic_label": "Ampoule: runny texture + dropper dispensing + excess amount/package size",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Packaging & dispensing",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 46,
+      "topic_label": "Opaque container: remaining amount not visible",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Packaging & dispensing",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 47,
+      "topic_label": "Dry skin: too drying, not moisturizing enough",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Insufficient moisturization",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 48,
+      "topic_label": "Disappears faster than expected",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Capacity: too small, wants larger SKU",
+      "polarity_type": "defect"
+    },
+    {
+      "topic_id": 49,
+      "topic_label": "Skin type: suitability for oily, dry, combination skin",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Skin-type fit",
+      "polarity_type": "conditional_fit"
+    },
+    {
+      "topic_id": 50,
+      "topic_label": "Mung bean particles issues: irritation, size, feeling",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Adverse skin reaction",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 51,
+      "topic_label": "Acne: little calming or clearing effect",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "No visible improvement",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 52,
+      "topic_label": "No overall skin improvement",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "No visible improvement",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 53,
+      "topic_label": "Dry skin: moisturizing power too weak",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Insufficient moisturization",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 54,
+      "topic_label": "Degenerate filler: repeated \"없음\"/keyboard-mash padding, no real content",
+      "is_excluded": true,
+      "exclusion_reason": "Degenerate filler -- repeated keyword padding / keyboard-mash text, no real propositional content.",
+      "theme_group": null,
+      "polarity_type": null
+    },
+    {
+      "topic_id": 55,
+      "topic_label": "Mist spray cap preference",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Packaging & dispensing",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 56,
+      "topic_label": "20-character-minimum padding + English-language rows (~62 genuine complaints inside – documented separately)",
+      "is_excluded": true,
+      "exclusion_reason": "20-char-minimum padding + English-language rows; ~62/334 rows (18.6%) are genuine complaints, documented separately, not re-extracted or re-routed here.",
+      "theme_group": null,
+      "polarity_type": null
+    },
+    {
+      "topic_id": 57,
+      "topic_label": "Cleansing oil: residue & emulsifying effort + breakouts + greasy bottle",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Cleansing performance",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 58,
+      "topic_label": "Sunscreen: mineral hard to remove/white cast + irritation/breakouts + eye stinging",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "No visible improvement",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 59,
+      "topic_label": "Expensive relative to how fast it is used up",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Price: too expensive",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 60,
+      "topic_label": "Breakouts appearing after use",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Adverse skin reaction",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 61,
+      "topic_label": "Limited whitening / wrinkle improvement effect",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "No visible improvement",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 62,
+      "topic_label": "Modeling pack water adjustment difficulty",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Application effort",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 63,
+      "topic_label": "Heavy and stifling for oily skin in summer",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Too heavy / oily-skin mismatch",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 64,
+      "topic_label": "Pump/dispenser: format preference and malfunction",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Packaging & dispensing",
+      "polarity_type": "preference_split"
+    },
+    {
+      "topic_id": 65,
+      "topic_label": "Pump/dispenser: format preference and malfunction",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Packaging & dispensing",
+      "polarity_type": "preference_split"
+    },
+    {
+      "topic_id": 66,
+      "topic_label": "Difficult to squeeze out",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Packaging & dispensing",
+      "polarity_type": null
+    },
+    {
+      "topic_id": 67,
+      "topic_label": "Small volume for the price: wants a larger SKU",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": "Capacity: too small, wants larger SKU",
+      "polarity_type": null
+    },
+    {
+      "topic_id": -1,
+      "topic_label": "Other / Uncategorized",
+      "is_excluded": false,
+      "exclusion_reason": null,
+      "theme_group": null,
+      "polarity_type": null
+    }
+  ]
+}

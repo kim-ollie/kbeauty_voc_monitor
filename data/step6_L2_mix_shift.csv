@@ -1,0 +1,66 @@
+scope,theme_group,h1,h2,h1_total,h2_total,complaint_mix_shift
+2008976,"Adverse skin reaction",114,54,914,300,0.05527
+2008976,"No visible improvement",175,62,914,300,0.0152
+2008976,"Price: too expensive",31,13,914,300,0.00942
+2008976,"Price: discount-dependent purchase",26,11,914,300,0.00822
+2008976,"Insufficient moisturization",13,5,914,300,0.00244
+2008976,"Application effort",9,3,914,300,0.00015
+2008976,"Texture & finish",44,14,914,300,-0.00147
+2008976,"Cleansing performance",295,96,914,300,-0.00276
+2008976,"Too heavy / oily-skin mismatch",27,6,914,300,-0.00954
+2008976,"Skin-type & seasonal fit",10,0,914,300,-0.01094
+2008976,"Packaging & dispensing",41,9,914,300,-0.01486
+2008976,"Capacity: too small, wants larger SKU",53,12,914,300,-0.01799
+2008976,Scent,76,15,914,300,-0.03315
+2096686,"No visible improvement",513,380,1255,883,0.02159
+2096686,"Insufficient moisturization",73,67,1255,883,0.01771
+2096686,"Adverse skin reaction",97,72,1255,883,0.00425
+2096686,"Texture & finish",109,79,1255,883,0.00262
+2096686,"Cleansing performance",2,2,1255,883,0.00067
+2096686,"Application effort",3,2,1255,883,-0.00013
+2096686,"Skin-type & seasonal fit",11,7,1255,883,-0.00084
+2096686,"Price: too expensive",47,32,1255,883,-0.00121
+2096686,"Packaging & dispensing",138,95,1255,883,-0.00237
+2096686,"Price: discount-dependent purchase",35,21,1255,883,-0.00411
+2096686,"Capacity: too small, wants larger SKU",113,72,1255,883,-0.0085
+2096686,"Too heavy / oily-skin mismatch",44,19,1255,883,-0.01354
+2096686,Scent,70,35,1255,883,-0.01614
+2148589,"Adverse skin reaction",60,15,1059,158,0.03828
+2148589,"No visible improvement",224,38,1059,158,0.02899
+2148589,"Texture & finish",137,25,1059,158,0.02886
+2148589,"Capacity: too small, wants larger SKU",130,22,1059,158,0.01648
+2148589,"Price: too expensive",30,7,1059,158,0.01598
+2148589,"Skin-type & seasonal fit",28,5,1059,158,0.00521
+2148589,"Price: discount-dependent purchase",16,3,1059,158,0.00388
+2148589,"Cleansing performance",1,0,1059,158,-0.00094
+2148589,"Application effort",1,0,1059,158,-0.00094
+2148589,"Too heavy / oily-skin mismatch",92,13,1059,158,-0.0046
+2148589,"Insufficient moisturization",57,5,1059,158,-0.02218
+2148589,"Packaging & dispensing",174,18,1059,158,-0.05038
+2148589,Scent,109,7,1059,158,-0.05862
+all,"Insufficient moisturization",10856,11309,63366,58805,0.02099
+all,"Too heavy / oily-skin mismatch",2951,3462,63366,58805,0.0123
+all,"Price: too expensive",3867,4011,63366,58805,0.00718
+all,Scent,3197,3030,63366,58805,0.00107
+all,"Capacity: too small, wants larger SKU",5052,4729,63366,58805,0.00069
+all,"Cleansing performance",4081,3700,63366,58805,-0.00148
+all,"Price: discount-dependent purchase",2730,2415,63366,58805,-0.00202
+all,"Skin-type & seasonal fit",1817,1551,63366,58805,-0.0023
+all,"Adverse skin reaction",5222,4640,63366,58805,-0.00351
+all,"Packaging & dispensing",5613,4951,63366,58805,-0.00439
+all,"Application effort",1683,1156,63366,58805,-0.0069
+all,"Texture & finish",9322,8107,63366,58805,-0.00925
+all,"No visible improvement",6975,5744,63366,58805,-0.0124
+"Cleansing Oils","Adverse skin reaction",248,171,2346,1343,0.02162
+"Cleansing Oils","Price: discount-dependent purchase",87,64,2346,1343,0.01057
+"Cleansing Oils","Texture & finish",132,89,2346,1343,0.01
+"Cleansing Oils","Price: too expensive",87,63,2346,1343,0.00983
+"Cleansing Oils","Capacity: too small, wants larger SKU",181,109,2346,1343,0.00401
+"Cleansing Oils","Insufficient moisturization",31,22,2346,1343,0.00317
+"Cleansing Oils","Application effort",13,7,2346,1343,-0.00033
+"Cleansing Oils","Packaging & dispensing",130,71,2346,1343,-0.00255
+"Cleansing Oils","Too heavy / oily-skin mismatch",45,21,2346,1343,-0.00354
+"Cleansing Oils","Skin-type & seasonal fit",19,6,2346,1343,-0.00363
+"Cleansing Oils","Cleansing performance",716,405,2346,1343,-0.00364
+"Cleansing Oils",Scent,265,141,2346,1343,-0.00797
+"Cleansing Oils","No visible improvement",392,174,2346,1343,-0.03753
